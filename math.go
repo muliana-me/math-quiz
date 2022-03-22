@@ -11,8 +11,8 @@ func randInt(min int, max int) int {
 }
 
 func main() {
-	fmt.Println("\nPerkalian Matematika")
-	fmt.Println("````````````````````")
+	fmt.Println("\nMath Multiplication Test")
+	fmt.Println("````````````````````````")
 
 	score := 0
 	questions := 10
@@ -28,14 +28,14 @@ func main() {
 		result := num1 * num2
 
 		if answer == uint(result) {
-			fmt.Println("Benar!")
+			fmt.Println("Correct!")
 			score++
 		} else {
-			fmt.Printf("Salah! Jawaban yang benar %v.\n", result)
+			fmt.Printf("Incorrect! The answer is %v.\n", result)
 		}
 	}
 
-	fmt.Printf("\nTotal jawaban benar %v dari %v soal.", score, questions)
+	fmt.Printf("\nCorrect answer %v out of %v.", score, questions)
 	percent := (float64(score) / float64(questions)) * 100
-	fmt.Printf("\nMendapatkan nilai %v.\n\n", percent)
+	fmt.Printf("\nYour score is %v.\n\n", percent)
 }
