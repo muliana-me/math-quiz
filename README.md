@@ -2,8 +2,8 @@
 Random multiplication of 1 to 10.
 
 ## Requirements
-- [Git](https://git-scm.com/downloads)
-- [Go](https://go.dev/dl/)
+* [Git](https://git-scm.com/downloads)
+* [Go](https://go.dev/dl/)
 
 ## Installation
 Make sure you have [Git](https://git-scm.com/downloads) and [Go](https://go.dev/dl/) installed.
@@ -14,12 +14,12 @@ $ go build math.go
 ```
 
 ## How To Use
-Linux, Mac, Android (Termux)
+**Linux, Mac, Android (Termux)**
 ```
 $ cd math-quiz
 $ ./math
 ```
-Windows
+**Windows**
 ```
 $ cd math-quiz
 $ math.exe
